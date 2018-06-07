@@ -2,23 +2,27 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* For width smaller than 400px: */
+body {
+    background-repeat: no-repeat;
+    background-image: url('smallgif.gif'); 
+}
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+    body { 
+       background-image: url('gif.gif'); 
+       background-size: 100%;
+    }
+}
+</style>
 </head>
 
 
 <body>
+
 <style>
-body{
-    background-image: "smallgif.gif";
-    background-size: 100%;
-}
-@media only screen and (min-width: 400px) {
-body{
-    background-image:"gif.gif";
-    background-size: 100%;
-}
-
-
-
 	
 h1 {
     color: white;
@@ -64,6 +68,7 @@ a  {
 
 </p>
 
+</style>
 </body>
 </html>
 
