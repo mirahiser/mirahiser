@@ -32,7 +32,7 @@ $(function (){
 
     // typejs
     $('.caption h4 span').typed({
-        strings: ["Am A Student at OSU","Like to Code"],
+        strings: ["am an OSU alumna","like to code"],
         loop: true,
         startDelay: 1000,
         backDelay: 2000
